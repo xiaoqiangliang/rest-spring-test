@@ -12,7 +12,9 @@ a restful with classify and train
 
 部署时需要将weka.jar IKAnalyzer2012_u6.jar lucene-core-3.6.0.jar放入本地的Maven库中
 配置pom.xml中
-<dependency> 
+
+
+		<dependency> 
 			<groupId>IKAnalyzer.IKAnalyzer</groupId> 
 			<artifactId>IKAnalyzer2012_u6</artifactId> 
          	<version>1.1.0</version> 
